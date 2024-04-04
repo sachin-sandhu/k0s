@@ -60,7 +60,7 @@ require (
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d
 	golang.org/x/mod v0.16.0
 	golang.org/x/sync v0.6.0
-	golang.org/x/sys v0.18.0
+	golang.org/x/sys v0.19.0
 	golang.org/x/tools v0.19.0
 	google.golang.org/grpc v1.62.1
 	helm.sh/helm/v3 v3.14.3
