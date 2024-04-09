@@ -68,13 +68,13 @@ require (
 
 // Kubernetes
 require (
-	k8s.io/api v0.29.0
-	k8s.io/apiextensions-apiserver v0.29.0
-	k8s.io/apimachinery v0.29.0
+	k8s.io/api v0.29.2
+	k8s.io/apiextensions-apiserver v0.29.2
+	k8s.io/apimachinery v0.29.2
 	k8s.io/cli-runtime v0.29.0
-	k8s.io/client-go v0.29.0
+	k8s.io/client-go v0.29.2
 	k8s.io/cloud-provider v0.29.0
-	k8s.io/component-base v0.29.0
+	k8s.io/component-base v0.29.2
 	k8s.io/component-helpers v0.29.0
 	k8s.io/cri-api v0.29.0
 	k8s.io/kube-aggregator v0.29.0
@@ -83,7 +83,7 @@ require (
 	k8s.io/kubernetes v1.29.0
 	k8s.io/mount-utils v0.29.0
 	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
-	sigs.k8s.io/controller-runtime v0.17.2
+	sigs.k8s.io/controller-runtime v0.17.3
 	sigs.k8s.io/yaml v1.4.0
 )
 
@@ -272,7 +272,7 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/apiserver v0.29.0 // indirect
+	k8s.io/apiserver v0.29.2 // indirect
 	k8s.io/controller-manager v0.29.0 // indirect
 	k8s.io/klog/v2 v2.110.1 // indirect
 	k8s.io/kms v0.29.0 // indirect
