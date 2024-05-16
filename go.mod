@@ -62,7 +62,7 @@ require (
 	golang.org/x/sys v0.20.0
 	golang.org/x/tools v0.21.0
 	google.golang.org/grpc v1.64.0
-	helm.sh/helm/v3 v3.14.4
+	helm.sh/helm/v3 v3.15.0
 )
 
 // Kubernetes
@@ -70,14 +70,14 @@ require (
 	k8s.io/api v0.30.0
 	k8s.io/apiextensions-apiserver v0.30.0
 	k8s.io/apimachinery v0.30.0
-	k8s.io/cli-runtime v0.29.0
+	k8s.io/cli-runtime v0.30.0
 	k8s.io/client-go v0.30.0
 	k8s.io/cloud-provider v0.29.0
 	k8s.io/component-base v0.30.0
 	k8s.io/component-helpers v0.29.0
 	k8s.io/cri-api v0.29.0
 	k8s.io/kube-aggregator v0.29.0
-	k8s.io/kubectl v0.29.0
+	k8s.io/kubectl v0.30.0
 	k8s.io/kubelet v0.29.0
 	k8s.io/kubernetes v1.29.0
 	k8s.io/mount-utils v0.29.0
