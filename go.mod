@@ -22,7 +22,7 @@ require (
 	github.com/denisbrodbeck/machineid v1.0.1
 	github.com/evanphx/json-patch v5.9.0+incompatible
 	github.com/fsnotify/fsnotify v1.7.0
-	github.com/go-logr/logr v1.4.1
+	github.com/go-logr/logr v1.4.2
 	github.com/go-openapi/jsonpointer v0.21.0
 	github.com/go-playground/validator/v10 v10.20.0
 	github.com/google/go-cmp v0.6.0
