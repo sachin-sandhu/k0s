@@ -5,7 +5,7 @@ toolchain go1.22.2
 
 // k0s
 require (
-	github.com/BurntSushi/toml v1.3.2
+	github.com/BurntSushi/toml v1.4.0
 	github.com/Masterminds/semver/v3 v3.2.1
 	github.com/Masterminds/sprig v2.22.0+incompatible
 	github.com/Microsoft/go-winio v0.6.2
