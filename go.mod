@@ -1,7 +1,7 @@
 module github.com/k0sproject/k0s
 
 go 1.21.0
-toolchain go1.22.2
+toolchain go1.22.3
 
 // k0s
 require (
@@ -24,7 +24,7 @@ require (
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/go-logr/logr v1.4.2
 	github.com/go-openapi/jsonpointer v0.21.0
-	github.com/go-playground/validator/v10 v10.20.0
+	github.com/go-playground/validator/v10 v10.21.0
 	github.com/google/go-cmp v0.6.0
 	github.com/hashicorp/terraform-exec v0.21.0
 	github.com/k0sproject/bootloose v0.8.0
