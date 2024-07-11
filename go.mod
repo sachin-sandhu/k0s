@@ -1,7 +1,7 @@
 module github.com/k0sproject/k0s
 
 go 1.21.0
-toolchain go1.22.4
+toolchain go1.22.5
 
 // k0s
 require (
@@ -62,7 +62,7 @@ require (
 	golang.org/x/sys v0.22.0
 	golang.org/x/tools v0.23.0
 	google.golang.org/grpc v1.65.0
-	helm.sh/helm/v3 v3.15.2
+	helm.sh/helm/v3 v3.15.3
 )
 
 // Kubernetes
