@@ -17,7 +17,7 @@ require (
 	github.com/cavaliergopher/grab/v3 v3.0.1
 	github.com/cilium/ebpf v0.17.0
 	github.com/cloudflare/cfssl v1.6.5
-	github.com/containerd/cgroups/v3 v3.0.4
+	github.com/containerd/cgroups/v3 v3.0.5
 	github.com/containerd/containerd v1.7.23
 	github.com/denisbrodbeck/machineid v1.0.1
 	github.com/evanphx/json-patch v5.9.0+incompatible
