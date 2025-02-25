@@ -24,7 +24,7 @@ require (
 	github.com/fsnotify/fsnotify v1.8.0
 	github.com/go-logr/logr v1.4.2
 	github.com/go-openapi/jsonpointer v0.21.0
-	github.com/go-playground/validator/v10 v10.24.0
+	github.com/go-playground/validator/v10 v10.25.0
 	github.com/google/go-cmp v0.7.0
 	github.com/hashicorp/terraform-exec v0.22.0
 	github.com/k0sproject/bootloose v0.9.0
