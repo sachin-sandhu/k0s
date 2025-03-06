@@ -60,7 +60,7 @@ require (
 	golang.org/x/mod v0.24.0
 	golang.org/x/sync v0.12.0
 	golang.org/x/sys v0.31.0
-	golang.org/x/tools v0.30.0
+	golang.org/x/tools v0.31.0
 	google.golang.org/grpc v1.71.0
 	helm.sh/helm/v3 v3.17.1
 )
@@ -264,7 +264,7 @@ require (
 	go.opentelemetry.io/otel/sdk v1.34.0 // indirect
 	go.opentelemetry.io/otel/trace v1.34.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.3.1 // indirect
-	golang.org/x/net v0.35.0 // indirect
+	golang.org/x/net v0.37.0 // indirect
 	golang.org/x/oauth2 v0.25.0 // indirect
 	golang.org/x/term v0.30.0 // indirect
 	golang.org/x/text v0.23.0 // indirect
