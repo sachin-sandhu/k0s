@@ -1,11 +1,11 @@
 module github.com/k0sproject/k0s
 
 go 1.21.0
-toolchain go1.23.4
+toolchain go1.24.1
 
 // k0s
 require (
-	github.com/BurntSushi/toml v1.4.0
+	github.com/BurntSushi/toml v1.5.0
 	github.com/Masterminds/semver/v3 v3.3.1
 	github.com/Masterminds/sprig v2.22.0+incompatible
 	github.com/Microsoft/go-winio v0.6.2
