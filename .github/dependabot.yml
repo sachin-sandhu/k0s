@@ -5,8 +5,6 @@ updates:
     directory: /
     schedule:
       interval: weekly
-    cooldown:
-      default-days: 90
     open-pull-requests-limit: 5
     ignore:
       # Kubernetes
