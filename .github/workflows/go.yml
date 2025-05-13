@@ -118,7 +118,7 @@ jobs:
           persist-credentials: false
 
       - name: Cache GOCACHE
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           key: unittests-k0s-linux-amd64-gocache-${{ github.ref_name }}-${{ github.sha }}
           restore-keys: |
@@ -128,7 +128,7 @@ jobs:
             build/cache/go/build
 
       - name: Cache GOMODCACHE
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           key: unittests-k0s-linux-amd64-gomodcache-${{ hashFiles('go.sum') }}
           restore-keys: |
@@ -164,7 +164,7 @@ jobs:
           go-version: ${{ env.GO_VERSION }}
 
       - name: Cache GOCACHE
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           key: unittests-k0s-windows-amd64-gocache-${{ github.ref_name }}-${{ github.sha }}
           restore-keys: |
@@ -173,7 +173,7 @@ jobs:
             ~\AppData\Local\go-build
 
       - name: Cache GOMODCACHE
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           key: unittests-k0s-windows-amd64-gomodcache-${{ hashFiles('go.sum') }}
           restore-keys: |
@@ -345,7 +345,7 @@ jobs:
           go-version: ${{ env.GO_VERSION }}
 
       - name: Cache embedded binaries
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           key: ${{ runner.os }}-embedded-bins-${{ matrix.arch }}-${{ hashFiles('**/embedded-bins/**/*') }}
           path: |
@@ -356,7 +356,7 @@ jobs:
             pkg/assets/zz_generated_offsets_linux.go
 
       - name: Cache GOCACHE
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           key: ${{ runner.os }}-smoketest-arm-gocache-${{ matrix.arch }}-${{ github.ref_name }}-${{ github.sha }}
           restore-keys: |
@@ -365,7 +365,7 @@ jobs:
             build/cache/go/build
 
       - name: Cache GOMODCACHE
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           key: ${{ runner.os }}-smoketest-arm-gomodcache-${{ matrix.arch }}-${{ hashFiles('go.sum') }}
           path: |
@@ -397,7 +397,7 @@ jobs:
 
       - name: Cache airgap image bundle
         id: cache-airgap-image-bundle
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           key: airgap-image-bundle-linux-${{ matrix.arch }}-${{ hashFiles('Makefile', 'airgap-images.txt', 'hack/image-bundler/*') }}
           path: |
