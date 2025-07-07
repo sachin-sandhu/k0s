@@ -1,6 +1,7 @@
 module github.com/k0sproject/k0s
 
-go 1.21.0
+go 1.23.0
+
 toolchain go1.24.1
 
 // k0s
@@ -58,7 +59,7 @@ require (
 	golang.org/x/crypto v0.37.0
 	golang.org/x/exp v0.0.0-20241108190413-2d47ceb2692f
 	golang.org/x/mod v0.24.0
-	golang.org/x/sync v0.13.0
+	golang.org/x/sync v0.14.0
 	golang.org/x/sys v0.32.0
 	golang.org/x/tools v0.32.0
 	google.golang.org/grpc v1.72.0
